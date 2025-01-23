@@ -72,7 +72,7 @@ Check out the live demo of the project:
 
 Here's how the calculator looks:
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](https://github.com/user-attachments/assets/9c0cf306-50f6-4319-b977-d0b6cdf61283)
 
 ---
 
