@@ -1,14 +1,12 @@
-// Variáveis para armazenar valores e operador
 let firstOperand = '';
 let secondOperand = '';
 let currentOperator = null;
 let shouldResetDisplay = false;
 
-// Elementos do DOM
 const display = document.querySelector('#display');
 const buttons = document.querySelectorAll('.btn');
 
-// Adiciona evento de clique para os botões
+
 buttons.forEach((button) => {
     button.addEventListener('click', () => {
         if (button.dataset.number) {
@@ -19,7 +17,7 @@ buttons.forEach((button) => {
     });
 });
 
-// Funções principais
+
 function appendNumber(number) {
     if (shouldResetDisplay) {
         resetDisplay();
@@ -100,7 +98,7 @@ function resetDisplay() {
     shouldResetDisplay = false;
 }
 
-// Função para executar operações
+
 function operate(operator, num1, num2) {
     switch (operator) {
         case 'add':
@@ -116,7 +114,6 @@ function operate(operator, num1, num2) {
     }
 }
 
-// Função para obter o símbolo do operador
 function getOperatorSymbol(operator) {
     switch (operator) {
         case 'add':
